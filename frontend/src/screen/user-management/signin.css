@@ -11,8 +11,13 @@
 
 .back {
   background-color: #594fe8; /* Background color for the page */
-  padding: 0px impo;  /* Optional: Add padding to the container */
+  background-image: url(https://cplusdesign.lk/wp-content/uploads/2021/10/Shopping-Mall-Interior-Design-Concept-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.6;
+  padding: 0px !important;  /* Optional: Add padding to the container */
 }
+
 
 .file-field {
   position: relative;
