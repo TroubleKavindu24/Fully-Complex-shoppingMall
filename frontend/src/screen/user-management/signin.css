@@ -1,0 +1,44 @@
+
+
+.custom-button {
+  background-color: #0cbf2d; /* Background color */
+  color: white; /* Text color */
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.back {
+  background-color: #594fe8; /* Background color for the page */
+  padding: 0px impo;  /* Optional: Add padding to the container */
+}
+
+.file-field {
+  position: relative;
+  overflow: hidden;
+  margin-top: 10px; /* Adjust the top margin as needed */
+}
+
+.file-field .btn {
+  background-color: #bf360c; /* Button background color */
+  color: white; /* Button text color */
+  border-radius: 20px; /* Button border radius */
+  padding: 10px 20px; /* Button padding */
+  cursor: pointer;
+}
+
+.file-field .btn input[type="file"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.file-field .btn:hover {
+  background-color: #ff5722; /* Button background color on hover */
+}
+

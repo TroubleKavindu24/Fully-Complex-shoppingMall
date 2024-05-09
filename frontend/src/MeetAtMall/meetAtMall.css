@@ -1,0 +1,12 @@
+.downloadbutton{
+    margin-top: 10px;
+    width: 230px;
+    height: 40px;
+    color:aliceblue;
+    background-color: black;
+    border-radius: 10px;
+}
+.inputstyle{
+    margin: 10px;
+    padding: 2px;
+}

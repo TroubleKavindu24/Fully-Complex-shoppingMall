@@ -1,0 +1,35 @@
+.stall {
+    border: 1px solid black;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .stall:hover {
+    opacity: 0.8;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  .button{
+    width: 30%;
+    padding: 10px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+    margin-left: -350px;
+    margin-top: 30px;
+  }
+  .stall .tooltip {
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-size: 120px;
+    z-index: 10;
+  }
+  

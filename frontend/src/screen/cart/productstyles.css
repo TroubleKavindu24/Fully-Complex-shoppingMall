@@ -1,0 +1,63 @@
+.textdeco{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(4, 4, 65), 0 0 5px darkblue;
+}
+.filter-button {
+    position: fixed; /* Keep the button fixed in place */
+    top: 160px; /* Adjust the top margin as needed */
+    left: 20px; /* Align to the left corner */
+    background-color: #3498db; /* Blue color, adjust as needed */
+    color: white; /* White text for visibility */
+    border: none; /* No border */
+    border-radius: 5px; /* Slight border radius */
+    padding: 10px 15px; /* Padding for comfort */
+    font-size: 16px; /* Adjust font size as needed */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .filter-button:hover {
+    background-color: #2980b9; /* Darken on hover for effect */
+  }
+  
+  .filter-popup {
+    position: fixed; /* Fixed position for popup */
+    top: 50px; /* Position the popup below the button */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center using transform */
+    background-color: white; /* White background */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding for content */
+    z-index: 1000; /* High z-index to ensure visibility */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); /* Light shadow for depth */
+  }
+  
+  .close-button {
+    position: absolute; /* Position within the popup */
+    top: 10px; /* Close button top alignment */
+    right: 10px; /* Close button right alignment */
+    background-color: transparent; /* Transparent background */
+    color: #333; /* Dark color for visibility */
+    border: none; /* No border */
+    font-size: 16px; /* Close button font size */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .close-button:hover {
+    color: #e74c3c; /* Red color on hover for visibility */
+  }
+  
+  .filter-controls {
+    margin-bottom: 20px; /* Space between controls */
+  }
+  
+  input {
+    width: 100%; /* Full width for inputs */
+    padding: 8px; /* Padding for inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  label {
+    font-weight: bold; /* Bold text for labels */
+  }

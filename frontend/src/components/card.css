@@ -1,0 +1,35 @@
+
+    .root {
+      width: 90%;
+      margin: auto;
+      margin-top: 10px;
+  
+    }
+    .card {
+      border: 1px solid rgb(98, 95, 95);
+      border-radius: "8px";
+      display: "flex";
+      flex-direction: "column";
+      padding: 30px;
+      
+    }
+    .list{
+        margin-top: 70px;
+        text-align: center;
+    }
+    .text{
+        font-size: 20px;
+        color:rgb(26, 26, 141);
+        font-weight: 700;
+    }
+    .cardContent {
+      display: "flex";
+      justify-content: "space-between";
+      align-items: "center";
+      padding: 10px;
+    }
+    .image {
+      width: 600px;
+      height: "auto";
+      border-radius: "8px 8px 0 0";
+    }
